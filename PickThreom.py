@@ -21,11 +21,11 @@ st.subheader(" آذین احمدی")
 
 st.write("فرمول: S = i + b/2 - 1")
 
-# INPUTS
-I = st.number_input("تعداد نقاط داخلی (i)", min_value=0, step=1)
-B = st.number_input("تعداد نقاط مرزی (b)", min_value=0, step=1)
 
-# CALC
+i = st.number_input("تعداد نقاط داخلی (i)", min_value=0, step=1)
+b = st.number_input("تعداد نقاط مرزی (b)", min_value=0, step=1)
+
+
 if st.button("محاسبه مساحت"):
     S = i + (b / 2) - 1
 
