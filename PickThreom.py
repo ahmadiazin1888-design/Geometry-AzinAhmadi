@@ -1,7 +1,23 @@
 import streamlit as st
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #E2F3EA;
 
-st.title("محاسبه مساحت چندضلعي هاي شبکه اي توسط فرمول پيک")
-st.subheader("ساخته شده توسط آذین احمدي")
+        background-image:
+            linear-gradient(to right, rgba(46, 204, 113, 0.22) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(46, 204, 113, 0.22) 1px, transparent 1px);
+
+        background-size: 38px 38px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title("محاسبه مساحت چندضلعی های شبکه ای توسط فرمول پيک")
+st.subheader(" آذین احمدی")
 
 st.write("فرمول: S = I + B/2 - 1")
 
